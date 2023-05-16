@@ -1,0 +1,72 @@
+  /* Stiling for the header that allows it to have the bannerimage*/
+  .header {
+    padding: 120px 0px;
+    width: 100%;
+
+    background-image: url('media/bannerimage.jpg');
+    background-attachment: fixed;
+    background-size: auto;
+    background-size: 100% 100%;
+    overflow: hidden;
+  }
+
+  .header h1{
+    padding: 0px 50px;
+    text-align: left;
+    font-size: 60px;
+    color: white;
+  }
+  /* End of banner stiling*/
+
+  /* Start of toolbar stiling */
+  .toolbar{
+    padding: none;
+  }
+
+  .toolbar .buttons{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  .toolbar .buttons a {
+      background: #50394c;
+      display: table-cell;
+      text-align: center;
+      font-size: 25px;
+      color: white;
+      text-decoration: none;
+      border: #330033 2px;
+      border-style: solid;
+  }
+
+  .toolbar .buttons a:hover {
+      background: #990099;
+  }
+  /* End of tool bar stiling */
+
+  body {
+      background: #d9d2e9;
+  }
+
+  /* Stiling for the info cards*/
+  .container {
+      max-width: 800px;
+      margin-top: 2rem;
+  }
+  .source-item {
+      padding: 1.5rem;
+      background-color: #fff;
+      border-radius: 0.5rem;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .source-item h2 {
+      margin-top: 0;
+      font-weight: bold;
+      color: #333;
+  }
+  .source-item p {
+      margin-bottom: 0px;
+      color: #777;
+  }
+  /* End of stiling for the info cards*/

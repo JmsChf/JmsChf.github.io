@@ -1,0 +1,1 @@
+// I didn't use any javascript here, please look at snakescript.js for all the javascript used in the project
